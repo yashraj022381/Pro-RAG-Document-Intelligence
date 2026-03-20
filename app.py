@@ -97,7 +97,7 @@ if uploaded_files:
             with st.chat_message("assistant"):
                 # step 1. Get the relevant chunks form your PDF first
                 retriever = st.session_state.vector_db.as_retriever(search_kwargs={"k": 3})
-                relevant_docs = retriever.get_relevant_documents(prompt)
+                relevant_docs = retriever.invoke(prompt)
                 context = "\n\n".join([doc.page_content for doc in relevant_docs])
 
                 # step 2. Create a prompt that includes the PDF context
