@@ -19,20 +19,20 @@ An advanced Retrieval-Augmented Generation (RAG) application that allows users t
 
 3. ## 📦 Installation & Setup
 
-  i) Clone the repository:
+   i) Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+  git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 
   ii) Install dependencies:
 
-     Bash
+   Bash
    pip install -r requirements.txt
 
   iii) Set up your .env file with your GROQ_API_KEY.
 
   iv) Run the app:
 
-      Bash
+   Bash
    streamlit run app.py
 
 4. ## Live Link
