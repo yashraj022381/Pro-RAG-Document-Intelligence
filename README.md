@@ -21,19 +21,19 @@ An advanced Retrieval-Augmented Generation (RAG) application that allows users t
 
    i) Clone the repository:
    ```bash
-  git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
 
   ii) Install dependencies:
 
-   Bash
-   pip install -r requirements.txt
+     Bash
+    pip install -r requirements.txt
 
   iii) Set up your .env file with your GROQ_API_KEY.
 
   iv) Run the app:
 
-   Bash
-   streamlit run app.py
+     Bash
+    streamlit run app.py
 
 4. ## Live Link
    https://pro-rag-document-intelligence-vxlhsubmuun7cnx8zra3ux.streamlit.app/
