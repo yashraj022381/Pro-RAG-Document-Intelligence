@@ -112,7 +112,7 @@ if uploaded_files:
                     llm = ChatGroq(
                         temperature=0,
                         model_name="llama-3.3-70b-versatile",
-                        api_key = grok_api_key
+                        api_key = groq_api_key
                     )
 
                     for chunk in llm.stream(rag_prompt):
