@@ -10,7 +10,7 @@ from langchain_core.prompts import PromptTemplate
 
 
 # Paste your API KEY here
-GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+groq_api_key = st.secrets["GROQ_API_KEY"]
 
 # 2. FEATURE: Multi-File Processing
 def process_pdfs(uploaded_files):
@@ -112,7 +112,7 @@ if uploaded_files:
                     llm = ChatGroq(
                         temperature=0,
                         model_name="llama-3.3-70b-versatile",
-                        api_key = GROQ_API_KEY
+                        api_key = grok_api_key
                     )
 
                     for chunk in llm.stream(rag_prompt):
